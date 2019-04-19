@@ -9,55 +9,45 @@
 <body>
 <form action="/" method="GET">
     <p>
-        <label>Name
-            <input type="text" name="Name" required>
+        <label>Full Name:
+            <input type="text" name="FullName" placeholder="Enter Full Name"required> 
         </label>
     </p>
     <p>
-        <label>Email
-            <input type="email" name="Email" required>
+        <label>Email address:
+            <input type="email" name="Email address" placeholder="Enter Email address" required>
         </label>
     </p>
     <p>
-        <label>Password
-            <input type="password" name="Password" required>
+        <label>Communication:
+            <p>
+            <input type="checkbox" name="Communication:" value="Email">Email
+        </p>
+        <p>
+            <input type="checkbox" name="Communication:"value="SMS">SMS
+        </p>
+        <p>
+            <input type="checkbox" name="Communication:" value="Phone">Phone
+        </p>
         </label>
     </p>
     <p>
-        <label>Number
-            <input type="number" name="Number" required>
-        </label>
-    </p>
-    <p>
-        <label>Date
-            <input type="date" name="Date" required>
-        </label>
-    </p>
-    <p>
-        <label>Time
-            <input type="time" name="Time" required>
-        </label>
-    </p>
-    <p>
-        <label>Color
-            <input type="color" name="Color" required>
-        </label>
-    </p>
-    <p>
-        <label>Range
-            <input type="range" name="Range" required>
-        </label>
-    </p>
-    <p>
-        <label>Dedcription
-           <textarea name="Dedcription"  cols="30" rows="10" required></textarea>
+        <label>User Group:
+            <p>
+            <input type="radio" required name="User Group" value="Sales Person">Sales Person
+            <input type="radio" required name="User Group" value="Customer"> Customer
+            </p>
+            <p>
+            <label> Please select user Group</label>
+        </p>
         </label>
     </p>
     <hr>
     <p>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Clear" id="">
+        <input type="submit" value="Submit" required>
+        <input type="reset" value="Cancel"  required>
     </p>
+    <p></p>
 </form>
 </body>
 </html>
