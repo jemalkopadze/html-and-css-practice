@@ -7,7 +7,6 @@
 
 .button.primary{
     background: blue;
-    padding: 8px;
     color: white;
 }
 .button.default{
@@ -24,3 +23,12 @@
     color: #e74c3c;
 }
 
+.large{
+    width: 120px;
+    height: 80px;
+}
+
+.small{
+    width: 20px;
+    font-size: 8px;
+}
