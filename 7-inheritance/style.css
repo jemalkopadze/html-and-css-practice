@@ -1,0 +1,26 @@
+.button{
+    width: 60px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.button.primary{
+    background: blue;
+    padding: 8px;
+    color: white;
+}
+.button.default{
+    border: 1px solid #0000003b;
+    color: black;
+}
+.button.dashed{
+    border: 1px dashed black;
+    color: black;
+}
+.button.danger{ 
+    background: #80808029;
+    border: 1px solid #0000003b;
+    color: #e74c3c;
+}
+
