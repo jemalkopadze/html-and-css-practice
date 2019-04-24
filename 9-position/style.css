@@ -1,20 +1,69 @@
 body{
-    background: black;
+    background: url(/image/1.jpg) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    margin: 0;
+    
+    
 }
-.bgimage{
-    position: relative;
+.practice{
     background: black;
-}
-img{
-    width: 100%;
     opacity: 0.2;
+    height: 100%;
 }
-p{
+.popup{
+    width: 500px;
+    background-color: white;
     position: absolute;
+    border-radius: 4px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 100px;
-    color: white;
-    text-transform: uppercase;
+    
 }
+.popup-head{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.popup p{
+    padding: 12px;
+    
+}
+.popup a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    text-decoration: none;
+    color: grey;
+}
+.popup-mid,p{
+    padding-left: 8px;
+}
+
+.popup-bottom{
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+
+.btn{
+    float: right;
+    margin-right: 10px;
+    padding: 8px;
+    
+}
+
+.btn span.cancel{
+    border: 1px solid #95a5a6;
+    border-radius: 6px;
+    padding: 6px;
+    color: #323535fa;
+}
+.btn span.ok{
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 6px;
+    background-color: #2980b9;
+    color: white;
+}
+
