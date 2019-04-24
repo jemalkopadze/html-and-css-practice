@@ -1,15 +1,46 @@
-.image-div {
+.card{
+    width: 380px;
+    border: 1px solid #5656566b;
     display: inline-block;
-    border: 1px solid lightblue;
-    margin-right: 20px;
-    width: 400px;
-    border-radius:0 0 8px 8px;
+    margin: 0 15px;
+}
+.top{
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+.top img,p{
+    display: inline-block;
 }
 
-.image-div img {
-    max-width: 100%;
+.middle img{
+    width: 50px;
+    border-radius: 50px;
+}
+.middle,img,p{
+    display:inline-block;
+    padding: 1px;
+}
+.name{
+    float: right;
+    display: inline-block;
+}
+.name p{
+    margin: 0;
+}
+.middle{
+    padding: 8px;
+}
+.bottom img{
+    width: 20px;
+    padding: 4px;
 }
 
-.border {
-    padding: 20px;
+.view,h4{  
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+
+.view h4{
+    margin: 6px;
 }
