@@ -2,67 +2,57 @@ main{
     width: 600px;
     margin: 0 auto;
 }
-
-.top-left {
-    float: left;
-    height: 300px;
-    width: 200px;
-}
-
 .top-left-1 {
-    height: 100px;
-    background: blue;
-}
-.top-left-2 {
-    height: 200px;
-    background: black;
-}
-.top-right {
-    float: right;
-    width: 400px;
+    float: left;
+    width: 300px;
     background: red;
     height: 300px;
 }
-.row {
-    clear: both;
-}
-
-.bottom-left {
+.top-left-2 {
+    float: right;
+    width: 300px;
     background: blue;
-    height: 100px;
-    width:  200px;
+    height: 300px;
+}
+.mid-1{
     float: left;
-}
-
-.bottom-right {
-    float: right;
-    width: 400px;
-    
-    height: 100px;
-}
-
-.bottom-right-left {
+    width: 300px;
     background: green;
+    height: 200px;
+}
+.mid-2{
     float: left;
-    height: 100px;
-    width: 350px;
+    width: 300px;
+    background: grey;
+    height: 200px;
 }
-
-.bottom-right-right {
+.bottom-left-1{
+    float: left;
+    width: 100px;
+    background: red;
+    height: 200px;
+}
+.bottom-left-2{
+    float: left;
+    width: 200px;
+    background: blue;
+    height: 200px;
+}
+.bottom-mid-1{
+    float: left;
+    width: 200px;
+    background: red;
+    height: 150px;
+}
+.bottom-mid-2{
+    float: left;
+    width: 200px;
+    background: green;
+    height: 50px;
+}
+.bottom-right-1{
     float: right;
-    width: 50px;
-    height: 100px;
-}
-
-.bot1 {
-    background: gold;
-    height: 50px;
-    widows: 50px;
-
-}
-
-.bot2 {
-    background:rebeccapurple;
-    height: 50px;
-    widows: 50px;
+    width: 100px;
+    background: blue;
+    height: 200px;
 }
