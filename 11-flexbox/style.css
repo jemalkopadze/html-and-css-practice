@@ -14,33 +14,45 @@
 }
 .top{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .col-1{
-    width: 50px;
-    height: 50px;
+    width: 250px;
+    height: 250px;
 }
 .col-2{
-    width: 50px;
+    width: 250px;
     height: 100px;
 }
-.col-3{
-    width: 250px;
-    height: 155px;
+.mid{
+    display: flex;
+    flex-direction: row;
 }
 .bottom{
     display: flex;
     flex-direction: row;
 }
-.col-4{
+.col-3{
     width: 50px;
-    height: 80px;
+    height: 150px;
+}
+.col-4{
+    width: 190px;
+    height: 150px;
+}
+.bottom-mid{
+    display: flex;
+    flex-direction: column;
 }
 .col-5{
-    width: 200px;
-    height: 80px;
+    width: 120px;
+    height: 110px;
 }
 .col-6{
-    width: 40px;
-    height: 37px;
+    width: 120px;
+    height: 30px;
+}
+.col-7{
+    width: 120px;
+    height: 150px;
 }
