@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 840px;
     margin: 0 auto;
 }
 .col{
@@ -17,42 +17,50 @@
     flex-direction: row;
 }
 .col-1{
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 .col-2{
-    width: 250px;
+    width: 105px;
     height: 100px;
 }
 .mid{
     display: flex;
     flex-direction: row;
 }
-.bottom{
+.mid-2{
     display: flex;
     flex-direction: row;
 }
 .col-3{
-    width: 50px;
+    width: 680px;
     height: 150px;
 }
 .col-4{
-    width: 190px;
+    width: 220px;
     height: 150px;
 }
-.bottom-mid{
+.bottom{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .col-5{
-    width: 120px;
-    height: 110px;
+    width: 220px;
+    height: 150px;
 }
 .col-6{
-    width: 120px;
-    height: 30px;
+    width: 680px;
+    height: 150px;
+}
+.bottom-2{
+    display: flex;
+    flex-direction: row;
 }
 .col-7{
-    width: 120px;
+    width: 450px;
+    height: 150px;
+}
+.col-8{
+    width: 450px;
     height: 150px;
 }
