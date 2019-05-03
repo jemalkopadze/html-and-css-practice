@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0 auto;
+    width: 1172px;
+}
+main .poster{
+    width: 1170px;
+    height: 800px;
+    margin-top: 29px;
+    background-color: red;
+}
+.content header{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ECF0F1;
+
+}
+.content header h3{
+    margin-top: 50px;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: 'Roboto';
+    color: #2C3E50;
+    margin-left: 12px;
+}
+.content header p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 36px;
+    color: #A1B1BC;
+    margin-top: 8px;
+    margin-left: 13px;
+    letter-spacing: -0.3px;
+    word-spacing: -0.1px;
+}
+.content header p span::after{
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #EBEBEB;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.content header p span:last-child::after{
+    display: none;
+}
+
+.content .top-text p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+ }
+ .content .inside-text{
+    margin-left: 42px;
+    margin-top: 43px;
+    height: 163px;
+    border-left: 9px solid #21C2F8;
+ }
+ .content .inside-text h3{
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 26px;
+    margin-left: 60px;
+    padding-top: 40px;
+    color: #A1B1BC;
+ }
+ .content .inside-text p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    color: #A1B1BC;
+    margin-top: 9px;
+    margin-bottom: 38px;
+    margin-left: 60px;
+    width: 77%;
+ }
+ .content .mid-text{
+     margin-top: 33px;
+ }
+ .content .mid-text h3{
+    float: left;
+    font-size: 27px;
+    font-family: 'Roboto';
+    width: 40px;
+    height: 40px;
+    background-color: #34495E;
+    color: #21C2F8;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 13px;
+    margin-top: 1px;
+ }
+ .content .mid-text p{
+     font-family: 'Roboto';
+     font-size: 14px;
+     line-height: 23px;
+     color: #A1B1BC;
+     width: 98%;
+ }
+ .content .bottom-text h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    margin-top: 34px;
+    margin-left: 12px;
+ }
+ .content .bottom-text p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-top: 15px;
+    margin-bottom: 62px;
+    margin-left: 13px;
+    width: 100%;
+}
