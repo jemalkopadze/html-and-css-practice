@@ -33,7 +33,7 @@ main .poster{
     line-height: 36px;
     color: #A1B1BC;
     margin-top: 8px;
-    margin-left: 13px;
+    margin-left: 14px;
     letter-spacing: -0.3px;
     word-spacing: -0.1px;
 }
@@ -67,8 +67,8 @@ main .poster{
     font-family: 'Roboto';
     font-size: 24px;
     line-height: 26px;
-    margin-left: 60px;
-    padding-top: 40px;
+    margin-left: 61px;
+    padding-top: 39px;
     color: #A1B1BC;
  }
  .content .inside-text p{
@@ -78,7 +78,7 @@ main .poster{
     color: #A1B1BC;
     margin-top: 9px;
     margin-bottom: 38px;
-    margin-left: 60px;
+    margin-left: 62px;
     width: 77%;
  }
  .content .mid-text{
@@ -94,31 +94,34 @@ main .poster{
     color: #21C2F8;
     text-align: center;
     line-height: 40px;
-    margin-left: 13px;
-    margin-top: 1px;
+    margin-left: 14px;
+    margin-top: 6px;
  }
  .content .mid-text p{
-     font-family: 'Roboto';
-     font-size: 14px;
-     line-height: 23px;
-     color: #A1B1BC;
-     width: 98%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    width: 99%;
+    margin-left: 11px;
+    margin-top: -6px;
+    letter-spacing: 0.05px;
  }
  .content .bottom-text h3{
     font-family: 'Roboto';
     font-size: 30px;
     line-height: 30px;
     color: #34495E;
-    margin-top: 34px;
-    margin-left: 12px;
+    margin-top: 41px;
+    margin-left: 14px;
  }
  .content .bottom-text p{
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 23px;
     color: #A1B1BC;
-    margin-top: 15px;
+    margin-top: 14px;
     margin-bottom: 62px;
-    margin-left: 13px;
+    margin-left: 14px;
     width: 100%;
 }
