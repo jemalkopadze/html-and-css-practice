@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: auto;
+    width: 1171px;
+}
+.top-text h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-top: 154px;
+    color: #34495E;
+}
+.top-text h3 .green{
+    color: #1ABC9C;
+}
+.top-text p {
+    font-family: 'Roboto';
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+.text-box{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 45px;
+}
+.text-box-left .box{
+    display: flex;
+    flex-direction: row;
+    width: 16px;
+    height: 16px;
+    background-color: #34495E;
+    margin-top: 13px;
+    margin-left: 2px;
+}
+.text-box-left p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 16px;
+    margin-left: 36px;
+    margin-top: -15px;
+}
+.text-box-middle{
+    margin-left: 62px;
+}
+.text-box-middle .box{
+    display: flex;
+    flex-direction: column;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #A1B1BC;
+    border-radius: 2px;
+    margin-top: 14px;
+}
+.text-box-middle p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 16px;
+    margin-left: 36px;
+    margin-top: -16px;
+}
+.text-box-right .box{
+    display: flex;
+    flex-direction: row;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    background-color: #34495E;
+    margin-top: 13px;
+    margin-left: 62px;
+}
+.text-box-right p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 16px;
+    margin-left: 98px;
+    margin-top: -15px;
+}
+.middle-text h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #34495E;
+}
+.middle-text .green{
+    color: #1ABC9C;
+}
+.middle-text p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-top: 11px;
+}
+.middle-text .css-code{
+    font-family: 'Arial';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 28px;
+    margin-left: 32px;
+}
+.middle-text .css-code > p{
+    width: 169px;
+    height: 136px;
+    margin-bottom: -38px;
+}
+.middle-text .css-code p{
+    margin-left: 16px;
+    margin-top: 1px;
+}
+.middle-text-2 p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-top: 44px;
+}
+.bottom-text {
+    margin-top: 34px;
+}
+.bottom-text .poster{
+    width: 370px;
+    height: 400px;
+    float: left;
+    background-color: #ECF0F1;
+    margin-top: -7px;
+    margin-right: 31px;
+}
+.text{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+    margin-bottom: 1px;
+}
+
+.bottom-text .b-text-1{
+    margin-top: -11px;
+}
+
+.bottom-text .b-text-2{
+    margin-top: 22px;
+}
+.bottom-text .b-text-3{
+    margin-top: 20px;
+    margin-top: 23px;
+}
+.content .tags{
+    display: flex;
+    flex-direction: row;
+    margin-top: 37px;
+}
+.content .tags .image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #34495E;
+    margin-top: 11px;
+}
+.content .tags .image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    margin-top: -3px;
+    margin-left: 2px;
+}
+.content .tags p{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 50px;
+    color: #A1B1BC;
+    margin-left: 22px;
+    margin-top: 12px;
+    letter-spacing: 0.3px;
+}
+.content .tags p a{
+    color: #1ABC9C;
+}
+.content .footer .admin{
+    margin: 87px 0px 0px 27px;
+}
+.content .footer .admin .profile{
+    float: left;
+    width: 106px;
+    height: 106px;
+    margin-right: 28px;
+    background-color: #A1B1BC;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.content .footer .descriptions h3{
+    font-family: 'Roboto Black';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+    margin-top: -10px;
+}
+.content .footer .descriptions h4{
+    font-family: 'Roboto Thin';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 1px;
+}
+.content .footer .descriptions p{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    width: 97%;
+    width: 98%;
+    margin-top: 10px;
+}
