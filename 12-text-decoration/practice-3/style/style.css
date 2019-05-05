@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: auto;
+    width: 1173px;
+}
+.content .header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.content .header h3{
+    font-family: "Roboto";
+    font-size: 30px;
+    line-height: 50px;
+    color: #2C3E50;
+}
+.content .header p{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 50px;  
+    color: #A1B1BC;
+}
+.content .comments{
+    position: relative;
+    border: 2px solid #ECF0F1;
+    border-radius: 2px;
+}
+.content .comments{
+    margin-top: 50px;
+}
+
+.content  .comments .profile{
+    float: left;
+    width: 76px;
+    height: 76px;
+    margin-top: 13px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #A1B1BC;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+
+.button{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 26px;
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: -16px;
+}
+.content  .comments .profile-1{
+    float: left;
+    width: 76px;
+    height: 76px;
+    margin-top: -3px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #A1B1BC;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+.content .reply-button-1{
+    background-color: #A1B1BC;
+    border-radius: 2px;
+}
+.content .reply-button p{ 
+    background-color: #2C3E50; 
+    border-radius: 2px;
+}
+.content  .comment-2 .profile-2{
+    float: left;
+    width: 76px;
+    height: 76px;
+    margin-top: -   px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #A1B1BC;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+.content .reply-button-2 p{ 
+    background-color: #2C3E50;
+    border-radius: 2px;
+}
+.content .reply-button-3{
+    background-color: #2C3E50;
+    border-radius: 2px;
+}
+.content .user{
+    margin-top: 12px;
+}
+.content .comments .user h3{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+}
+.content  .user h4{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    margin-top: 3px;
+    letter-spacing: -0.5px;
+    word-spacing: 0.4px;
+}
+.content .user p{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    width: 87%;
+    margin-left: 137px;
+    margin-bottom: 26px;
+    margin-top: 5px;
+}
+.content .comment-2, .comment-2{
+    margin-left: 50px;
+}
+.content .comment-3, .comment-3{
+    margin-left: 50px;
+}
+.content .reply-button-4, .reply-button-5{
+    background-color: #2C3E50;
+    border-radius: 2px;
+}
+.content .leave-comment{
+    margin-top: 75px;
+}
+.content .leave-comment h3{
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 20px;
+    color: #2C3E50;
+}
+.content .leave-comment input{
+    width: 370px;
+    height: 50px;
+    margin-top: 48px;
+    border: 1px solid #ECF0F1;
+    border-radius: 2px;
+}
+
+.content .leave-comment .email, .website{
+    margin-left: 20px;
+}
+.content .leave-comment input::placeholder{
+    padding-left: 20px;
+}
+.content .leave-comment textarea{
+    margin-top: 18px;
+    border: 1px solid #ECF0F1;
+    border-radius: 2px;
+}
+.content .leave-comment input[type="submit"]{
+    font-family: 'Roboto';
+    font-size: 'Black';
+    width: 190px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2C3E50;
+    border-radius: 2px; 
+}
+
+
+
